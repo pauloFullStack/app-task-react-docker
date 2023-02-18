@@ -1,4 +1,4 @@
-## Crie as imagens do Docker
+## Criar a imagen node - docker
 
 ```
 sudo docker build -t client ./client 
