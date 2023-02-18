@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Criar Front-End",
+      "day": "5 de Fev 1:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Criar Back-End",
+      "day": "6 de Fev 2:30pm",
+      "reminder": false
+    },
+    {
+      "text": "Criar Database",
+      "day": "18 de fev 2:30pm",
+      "reminder": true,
+      "id": 3
+    }
+  ]
+}
