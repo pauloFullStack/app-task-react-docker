@@ -1,8 +1,14 @@
 version: "3.8"
 services:
   client:
-    image: client
+    image: node-v14
+    environment:
+      - PORT=${PORT}
+      - APP_DIR=/client
     ports:
-      - "3000:3000"
+      - "${PORT}:${PORT}"
     volumes:
-      - .:/usr/src/app
+      - .:${APP_DIR}
+    env_file:
+      - .env
+    command: "npm start --prefix client"
